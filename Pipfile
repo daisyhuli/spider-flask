@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+flask = "*"
+requests = "*"
+wtforms = "*"
+flask-sqlalchemy = "*"
+cymysql = "*"
+flask-migrate = "*"
+bs4 = "*"
+flask-apscheduler = "*"
+fake-useragent = "*"
+flask-cors = "*"
+flask-socketio = "*"
+flask-script = "*"
+
+[requires]
+python_version = "3.7"
